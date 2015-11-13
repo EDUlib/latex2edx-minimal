@@ -22,6 +22,8 @@ Documentation
 * http://mitocw.github.io/latex2edx/html/index.html (format latex2edx)
 * http://edx-open-learning-xml.readthedocs.org/en/latest/index.html (format Open Learning XML)
 
+La documentation de Open Learning XML sera utile afin de modifier à la main et selon vos besoins les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
+
 Pour fins de références, nous conservons ici aussi la documentation originale du cours https://github.com/mitocw/content-mit-latex2edx-demo 
 
 Live Example Site
