@@ -1,6 +1,6 @@
 <xbundle>
   <metadata/>
-  <course number="UMontreal.latex2edx" display_name="latex2edx cours minimal" semester="A2015" org="MITx">
+  <course number="latex2edx01" display_name="latex2edx cours minimal" semester="A2015" org="MITx">
     <chapter display_name="avec des accents fran&#xE7;ais &#xE0; &#xE8; &#xFA; &#xF4; &#xEA;" linenum="1" tex_filename="./minimal.tex" refnum="1" url_name="Chapitre_1">
       <sequential display_name="Premi&#xE8;re question" refnum="1" url_name="Premiere_Question">
         <vertical refnum="1" url_name="Premi&#xE8;re_question_vertical">

@@ -1,0 +1,21 @@
+{
+    "course/A2015": {
+        "graceperiod": "0 day 5 hours 5 minutes 0 seconds", 
+        "start": "2014-01-20T02:00", 
+	"end": "2114-06-02T00:00",
+	"enrollment_end": "2114-05-12T00:00", 
+        "rerandomize": "once", 
+	"attempts": 10,
+        "showanswer": "attempted", 
+        "display_name": "cours latex2edx-minimal", 
+	"ispublic": true,
+	
+	"tabs" : [
+	    {"type": "courseware"},       
+	    {"type": "course_info", "name": "Course Info"},
+            {"name": "Progress", "type": "progress"}
+	]
+	
+    } 
+    
+}
