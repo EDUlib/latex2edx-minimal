@@ -35,13 +35,28 @@ Installation
 
 Pour modifier votre cours, veuillez modifier le fichier src/moncours.tex et/ou le fichier src/minimal.tex. Vous pouvez aussi ajouter d'autres fichiers .tex si vous les incluer dans le fichier src/moncours.tex au préalable. Vous pouvez aussi modifier les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
 
+Nous vous recommendons de modifier l'image de votre cours se trouvant dans le fichier static/images/course_image.jpg.
+
+Nous vous recommendons de modifier le vidéo d'introduction de votre cours se trouvant dans le fichier about/video.html.
+
+Nous vous recommendons de vous assurer que le nom de votre cours est bien identifié dans le fichier src/moncours.tex et que celui est aussi correct dans le fichier course.xml.
+
 Après avoir fait les modifications nécessaires à votre cours, il faudra maintenant compiler celui-ci. Pour ce faire, exécutez les commandes suivantes dans le répertoire src:
 * ln -s .. course
 * touch moncours.tex 
 * make
 * rm course
 
-Si tout s'est déroulé correctement, il faudra maintenant produire le fichier .tar.gz qui sera utilisé lors de l'import de votre cours dans Studio. Pour ce faire, exécutez la commande suivante dans le répertoire où vous avez importé ce cours minimal:
+
+Si tout s'est déroulé correctement, il faudra maintenant produire le fichier .tar.gz qui sera utilisé lors de l'import de votre cours dans Studio.
+
+Avant de procéder, veuillez vous assurer que le fichier course.xml contient les bonnes informations pour votre cours.
+
+Veuillez aussi vous assurer que le nom du sous-répertoire sous policies est bien équivalent au url_name dans le fichier course.xml. A noter que vous devrez éditer le fichier policy.json afin d'y inclure les paramètres et valeurs appropriées pour votre cours. Voir http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/policies/course.html pour plus de détails.
+
+Si vous devez noter des exercices, la lecture de http://edx.readthedocs.org/projects/edx-open-learning-xml/en/latest/policies/grading.html vous sera utile puisque le fichier grading_policy.json doit aussi se retrouver dans le même répertoire que le fichier policy.json mentionné dans le paragraphe précédent.
+
+Ensuite, exécutez la commande suivante dans le répertoire où vous avez importé ce cours minimal:
 * tar -cvzf latex2edx-minimal.tar.gz latex2edx-minimal
 
 Bien évidemment, si vous avez changé le nom du répertoire initial (latex2edx-minimal) veuillez utiliser le nom approprié. Idem pour le fichier .tar.gz.
