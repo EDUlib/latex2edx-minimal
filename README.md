@@ -1,51 +1,53 @@
 latex2edx-minimal
 =================
 
-latex2edx-minimal est la coquille d'un cours latex2edx pouvant être utilisé dans l'environnement EDUlib.
+latex2edx-minimal est la coquille d'un cours latex2edx minimal pouvant être utilisé dans l'environnement EDUlib ou tout autre environnement Open edX.
 
-Inspiré de
+Largement inspiré du contenu original du cours latex2edx démo de MIT
 * https://github.com/mitocw/content-mit-latex2edx-demo
 
-Ce répertoire contient un exemple d'un cours minimal d'un cours edX généré via latex2edx (https://github.com/mitocw/latex2edx).
 
 Coquille minimale
 =================
 
 Il y a deux fichiers importants dans le répertoire src:
 
-moncours.tex supporte une structure de cours incluant un chapître minimal via l'inclusion du fichier minimal.tex
+moncours.tex supporte une structure de cours incluant un chapitre minimal via l'inclusion du fichier minimal.tex
 
 
 Documentation
 =============
 
-* http://mitocw.github.io/latex2edx/html/index.html (format latex2edx)
 * http://edx-open-learning-xml.readthedocs.org/en/latest/index.html (format Open Learning XML)
+* http://mitocw.github.io/latex2edx/html/index.html (format latex2edx)
 
-La documentation de Open Learning XML sera utile afin de modifier à la main et selon vos besoins les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
+La documentation de Open Learning XML vous sera utile afin de modifier à la main et selon vos besoins les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
 
-Pour fins de références, nous conservons ici aussi la documentation originale du cours démo développé par MIT
+La documentation de latex2ex vous sera utile afin de modifier à la main et selon vos besoins les fichiers moncours.tex, minimal.tex et autres fichier .tex que vous voudrez ajouter à votre cours.
+
+Pour fins de références, nous vous référons aussi à la documentation originale du cours démo développé par MIT
 * https://github.com/mitocw/content-mit-latex2edx-demo 
 
 
 Installation
 ============
 
-Pour modifier votre cours, veuillez modifier le fichier src/moncours.tex et/ou le fichier src/minimal.tex. Vous pouvez aussi ajouter d'autres fichiers .tex si vous les incluer dans le fichier src/moncours.tex au préalable.
+Pour modifier votre cours, veuillez modifier le fichier src/moncours.tex et/ou le fichier src/minimal.tex. Vous pouvez aussi ajouter d'autres fichiers .tex si vous les incluer dans le fichier src/moncours.tex au préalable. Vous pouvez aussi modifier les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
 
-Après avoir fait vos modifications, il faut maintenant compiler votre cours. Pour ce faire, allez dans le répertoire src et exécutez les commandes suivantesL
+Après avoir fait les modifications nécessaires à votre cours, il faudra maintenant compiler celui-ci. Pour ce faire, exécutez les commandes suivantes dans le répertoire src:
 * ln -s .. course
 * touch moncours.tex 
 * make
 * rm course
 
-Si tout s'est déroulé correctement, il faut maintenant produire le fichier .tar.gz pour votre cours. Pour ce faire, exécutez la commande suivante dans le répertoire où vous avez importé ce cours minimal:
+Si tout s'est déroulé correctement, il faudra maintenant produire le fichier .tar.gz qui sera utilisé lors de l'import de votre cours dans Studio. Pour ce faire, exécutez la commande suivante dans le répertoire où vous avez importé ce cours minimal:
 * tar -cvzf latex2edx-minimal.tar.gz latex2edx-minimal
 
 Bien évidemment, si vous avez changé le nom du répertoire initial (latex2edx-minimal) veuillez utiliser le nom approprié. Idem pour le fichier .tar.gz.
 
-Il vous suffit ensuite d'importer ce cours dans https://studio.edulib.org
+Finalement, vous devrez ensuite importer le fichier .tar.gz dans Studio.
 
+Pour votre information, les sections suivantes de ce README proviennent de la documentation initial du cours démo latex2edx produit par MIT.
 
 Live Example Site
 =================
