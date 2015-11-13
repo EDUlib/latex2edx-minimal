@@ -13,9 +13,13 @@ Coquille minimale
 
 Il y a deux fichiers importants dans le répertoire src:
 
-moncours.tex contient une structure de cours avec un chapître (minimal.tex)
-minimal.tex  contient une chapître minimal.
+moncours.tex supporte une structure de cours incluant un chapître minimal via l'inclusion du fichier minimal.tex
 
+
+Documentation
+=============
+
+http://mitocw.github.io/latex2edx/html/index.html
 
 Pour fins de références, nous conservons ici aussi la documentation originale du cours https://github.com/mitocw/content-mit-latex2edx-demo 
 
