@@ -1,9 +1,23 @@
-content-mit-latex2edx-demo
-==========================
+latex2edx-minimal
+=================
 
-latex2edx demo course
+latex2edx-minimal est la coquille d'un cours latex2edx pouvant être utilisé dans l'environnement EDUlib.
 
-This repository contains an example edX course generated via latex2edx (https://github.com/mitocw/latex2edx).
+Inspiré de
+* https://github.com/mitocw/content-mit-latex2edx-demo
+
+Ce répertoire contient un exemple d'un cours minimal d'un cours edX généré via latex2edx (https://github.com/mitocw/latex2edx).
+
+Coquille minimale
+=================
+
+Il y a deux fichiers importants dans le répertoire src:
+
+moncours.tex contient une structure de cours avec un chapître (minimal.tex)
+minimal.tex  contient une chapître minimal.
+
+
+Pour fins de références, nous conservons ici aussi la documentation originale du cours https://github.com/mitocw/content-mit-latex2edx-demo 
 
 Live Example Site
 =================
@@ -41,4 +55,4 @@ Examples included:
 * Adaptive hints using "hint_fn" scripts
 * Drag and drop problem created via latex2dnd
 
-See the latex2edx distribution and the latex2dnd package (https://github.com/mitocw/latex2dnd) for more information.
+See the latex2edx distribution and the latexdnd package (https://github.com/mitocw/latex2dnd) for more information.
