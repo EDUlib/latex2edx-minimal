@@ -24,7 +24,28 @@ Documentation
 
 La documentation de Open Learning XML sera utile afin de modifier à la main et selon vos besoins les fichiers se trouvant dans les répertoires about, info, policies, static ou autres qui contiennent des informations sur votre cours.
 
-Pour fins de références, nous conservons ici aussi la documentation originale du cours https://github.com/mitocw/content-mit-latex2edx-demo 
+Pour fins de références, nous conservons ici aussi la documentation originale du cours démo développé par MIT
+* https://github.com/mitocw/content-mit-latex2edx-demo 
+
+
+Installation
+============
+
+Pour modifier votre cours, veuillez modifier le fichier src/moncours.tex et/ou le fichier src/minimal.tex. Vous pouvez aussi ajouter d'autres fichiers .tex si vous les incluer dans le fichier src/moncours.tex au préalable.
+
+Après avoir fait vos modifications, il faut maintenant compiler votre cours. Pour ce faire, allez dans le répertoire src et exécutez les commandes suivantesL
+* ln -s .. course
+* touch moncours.tex 
+* make
+* rm course
+
+Si tout s'est déroulé correctement, il faut maintenant produire le fichier .tar.gz pour votre cours. Pour ce faire, exécutez la commande suivante dans le répertoire où vous avez importé ce cours minimal:
+* tar -cvzf latex2edx-minimal.tar.gz latex2edx-minimal
+
+Bien évidemment, si vous avez changé le nom du répertoire initial (latex2edx-minimal) veuillez utiliser le nom approprié. Idem pour le fichier .tar.gz.
+
+Il vous suffit ensuite d'importer ce cours dans https://studio.edulib.org
+
 
 Live Example Site
 =================
