@@ -19,7 +19,8 @@ moncours.tex supporte une structure de cours incluant un chapître minimal via l
 Documentation
 =============
 
-http://mitocw.github.io/latex2edx/html/index.html
+* http://mitocw.github.io/latex2edx/html/index.html (format latex2edx)
+* http://edx-open-learning-xml.readthedocs.org/en/latest/index.html (format Open Learning XML)
 
 Pour fins de références, nous conservons ici aussi la documentation originale du cours https://github.com/mitocw/content-mit-latex2edx-demo 
 
