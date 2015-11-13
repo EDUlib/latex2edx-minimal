@@ -10,9 +10,10 @@ Largement inspiré du contenu original du cours latex2edx démo de MIT
 Coquille minimale
 =================
 
-Il y a deux fichiers importants dans le répertoire src:
+Il y a deux fichiers importants dans le répertoire src qui vous seront utiles pour démarrer votre cours latex2edx:
 
-moncours.tex supporte une structure de cours incluant un chapitre minimal via l'inclusion du fichier minimal.tex
+* moncours.tex supporte une structure de cours incluant un chapitre minimal via l'inclusion du fichier minimal.tex
+* minimal.tex continer un chapitre minimal
 
 
 Documentation
